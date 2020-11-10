@@ -124,13 +124,14 @@ main .search-button img {
 
 main .button-lenguage {
   margin: 0 auto;
-  border-bottom: 1px solid;
 }
 main .button-lenguage button {
   height: 35px;
   width: 300px;
   padding-bottom: 5px;
   text-align: center;
+  border: 1px solid #a2a9b1;
+  background-color: transparent;
 }
 main .button-lenguage button:hover {
   border-color: #3366cc;
@@ -142,8 +143,27 @@ main .button-lenguage a {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   margin: 0 5px 0 5px;
+  vertical-align: bottom;
+}
+main .button-lenguage img {
+  vertical-align: middle;
 }
 
 main .border-buttom {
-  border-bottom: 1px solid;
+  background-color: #c8ccd1;
+  display: block;
+  margin: -16px auto 16px;
+  height: 1px;
+  max-width: 460px;
+  position: relative;
+}
+
+main .border-top-footer {
+  border-bottom: 1px solid #c8ccd1;
+  height: 35px;
+}
+
+footer {
+  max-width: 100%;
+  padding: 41px 12px 12px;
 }
