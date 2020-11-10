@@ -126,12 +126,15 @@ main .button-lenguage {
   margin: 0 auto;
 }
 main .button-lenguage button {
-  height: 35px;
+  z-index: 1;
+  position: relative;
   width: 300px;
+  height: 35px;
+  margin: 0 15px 0 15px;
   padding-bottom: 5px;
-  text-align: center;
   border: 1px solid #a2a9b1;
-  background-color: transparent;
+  background-color: #ffffff;
+  text-align: center;
 }
 main .button-lenguage button:hover {
   border-color: #3366cc;
@@ -157,7 +160,6 @@ main .border-buttom {
   max-width: 460px;
   position: relative;
 }
-
 main .border-top-footer {
   border-bottom: 1px solid #c8ccd1;
   height: 35px;
@@ -166,4 +168,6 @@ main .border-top-footer {
 footer {
   max-width: 100%;
   padding: 41px 12px 12px;
+}
+footer .footer-links-1 {
 }
