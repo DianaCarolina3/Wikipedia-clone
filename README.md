@@ -1,2 +1,2 @@
-# Wikipedia-clone
-This is a proyect of Wikipedia clone
+# Wikipedia clone
+Wikipedia replica made with css and html
